@@ -118,7 +118,8 @@ angular
             if (options.labels) {
               scope.datamap.labels({
                 labelColor: options.labelColor ? options.labelColor : '#333333',
-                fontSize: options.labelSize ? options.labelSize : 12
+                fontSize: options.labelSize ? options.labelSize : 12,
+                customLabelText: options.customLabelText ? options.customLabelText : {}
               });
             }
 
